@@ -1,0 +1,37 @@
+.jumbotron {
+    padding-top: 7rem;
+}
+
+span {
+    color: #39A2DB;
+}
+
+.hero {
+    background-image: url("img/wave1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.row-biru {
+    background-color: #39a2db79;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .hero {
+        background-image: none;
+    }
+
+    .card {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        background-image: url("img/wave1.svg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    table {
+        width: 200px;
+    }
+}
